@@ -8,17 +8,23 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <header>
+        <p class="hui">Hi , I am Rohan , Trying to make a Instagram Clone page</p>
+    </header>
     <div class="login-container">
         <h1>INSTAGRAM</h1>
-        <input type="text" class="input-field" placeholder="Write your Username">
-        <input type="password" class=" input-field" placeholder="Write your password">
-        <button class="login-button" onclick="window.location.href='https://www.pinterest.com'">Log in</button>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png" alt="Instagram_Logo" width="100px" height="auto">
+        <form onsubmit="window.location.href='https://www.instagram.com'; return false;">
+            <input type="text" class="input-field" placeholder="Write your Username" required>
+            <input type="password" class=" input-field" placeholder="Write your password" required>
+            <button class="login-button" type="submit">Log in</button>
+        </form>
         <div class="forgot-password"><a href="#">Forgot password?</a></div>
         <div class="divider"></div>
-        <div class="signup-link">Don't have an account? <a href="#">Sign up</a></div>
+        <div class="signup-link">Don't have an account? <a href="sign_up.html">Sign up</a></div>
     </div>
-<footer>
-    <p>2024 Instagram trademark , Just a clone</p>
+<footer class="Endui">
+    <p>&copy; 2024 Instagram trademark , Just a clone</p>
 </footer>
 </body>
 </html>
