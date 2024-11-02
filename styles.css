@@ -14,10 +14,10 @@
         }
         .login-container {
             background-color: white;
-            border-radius: 5px;
+            border-radius: 6px;
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
             padding: 40px;
-            width: 350px;
+            width: 360px;
             text-align: center;
         }
         .login-container h1 {
@@ -57,21 +57,6 @@
             font-size: 14px;
             color: #00376b;
         }
-        .hui {
-            text-align: center; 
-            padding: 10px; 
-            background-color: #f1f1f1; 
-            right: 0;
-            left: 0;
-            top: 0;
-            position: fixed;
-            z-index: 1000;
-            opacity: 0;
-            transition: opacity 0.5s ease;
-        }
-        .hui.show {
-            opacity: 1;
-        }
         .Endui {
             text-align: center;
             left: 0;
@@ -90,6 +75,7 @@
             right: 0;
             font-style: bold;
             font-family: "Spicy Rice", serif;
+            color: #fafafa;
         }
         .yut1 {
             background-color: rgb(36, 35, 35);
@@ -107,4 +93,31 @@
             color: #a2a8ac;
             font-family: "Spicy Rice",serif;
             font-size: 20px;
+        }
+        .po2 {
+            color: #2a2828;
+            font-family: "Spicy Rice",serif;
+            font-size: 32px;
+        }
+        .po3 {
+            color: #2a2828;
+            font-family: "Spicy Rice",serif;
+            font-size: 22px;
+            text-align: center;
+        }
+        .po4 {
+            color: #2a2828;
+            font-family: "Spicy Rice",serif;
+            font-size: 35px;
+            text-align: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+        }
+        .po5 {
+            color: #2a2828;
+            font-family: "Spicy Rice",serif;
+            font-size: 13px;
+            text-align: center;
         }
